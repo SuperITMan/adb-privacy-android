@@ -6,9 +6,9 @@ What I want is actually really simple. Create small which uses adb with a GUI to
 
 # TODO
 
-[ ] Run a pc app
-[ ] Display all installed app on the Android + their background status
-[ ] Thanks to checkboxes, select multiple apps to change their status
+- [ ] Run a pc app
+- [ ] Display all installed app on the Android + their background status
+- [ ] Thanks to checkboxes, select multiple apps to change their status
 
 
 ## Commands
