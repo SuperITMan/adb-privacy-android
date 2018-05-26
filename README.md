@@ -4,6 +4,12 @@ This repo is simply there to help to improve the control of your phone without r
 
 What I want is actually really simple. Create small which uses adb with a GUI to play with thoses options easily.
 
+# TODO
+
+[ ] Run a pc app
+[ ] Display all installed app on the Android + their background status
+[ ] Thanks to checkboxes, select multiple apps to change their status
+
 
 ## Commands
 
@@ -17,6 +23,6 @@ Based on [RunInBackgroundPermissionSetter](https://github.com/MrBIMC/RunInBackgr
 
 This command will prevent the application running in background.
 
-> cmd appops set \<package_name\> RUN_IN_BACKGROUND allow
+> adb shell cmd appops set \<package_name\> RUN_IN_BACKGROUND allow
 
 This command is exactly the same but its goal is to authorize the app to run in background.##
